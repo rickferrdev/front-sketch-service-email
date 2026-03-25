@@ -27,7 +27,7 @@ export default function App() {
         setError(null)
 
         try {
-            const res = await axios.post("http://localhost:5173/api/v1/subs", {
+            const res = await axios.post(import.meta.env.VITE_API_URL + "/v1/subs", {
                 email: email
             })
 
