@@ -1,7 +1,6 @@
 import { useState, FormEvent } from 'react';
 import { CheckCircle2, Mail, ArrowRight } from 'lucide-react';
 import { motion } from 'motion/react';
-import { StrictMode } from 'react';
 import { createRoot } from 'react-dom/client';
 import axios from "axios"
 import './index.css';
