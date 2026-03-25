@@ -1,0 +1,5 @@
+{
+    "/api": {
+        "target": "https://sketch-service-email.onrender.com"
+    }
+}
