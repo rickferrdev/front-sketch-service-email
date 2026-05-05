@@ -28,23 +28,23 @@ Translation in Brazilian Portuguese [README.pt-BR](./README.pt-BR.md)
 ## ⚙️ Development Setup
 
 ### 1. Installation
-Install the necessary dependencies using npm:
+Install the necessary dependencies using bun:
 ```bash
-npm install
+bun install
 ```
 
 
 ### 2. Local Development
 Start the Vite development server:
 ```bash
-npm run dev
+bun run dev
 ```
 The application will be available at `http://localhost:5173`.
 
 ### 3. Production Build
 To create an optimized production build:
 ```bash
-npm run build
+bun run build
 ```
 
 
